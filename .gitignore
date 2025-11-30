@@ -23,4 +23,4 @@ pa2_data/
 .DS_Store
 
 # Allow PDF files to be tracked explicitly (do not ignore PDFs)
-.pdf
+*.pdf
