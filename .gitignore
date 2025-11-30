@@ -1,0 +1,26 @@
+# Ignore common Python-related build, caches and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+.vscode/
+.idea/
+build/
+dist/
+*.egg-info/
+
+# Ignore large training artifacts and datasets
+data/cifar-10-batches-py/
+pa2_data/
+*.weights.h5
+
+# OS
+.DS_Store
+
+# Allow PDF files to be tracked explicitly (do not ignore PDFs)
+!*.pdf

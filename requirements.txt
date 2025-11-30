@@ -1,0 +1,17 @@
+# Recommended packages for project
+# NOTE: install a GPU-enabled TensorFlow suitable for your environment.
+# Example (CUDA 11.2 + cuDNN 8):
+#   pip install tensorflow==2.10.0
+# If your platform uses separate package name, you may install `tensorflow-gpu==2.10.0`.
+
+tensorflow==2.10.0
+numpy
+matplotlib
+tqdm
+h5py
+pickle5
+tensorflow
+numpy
+matplotlib
+pickle5
+tqdm
