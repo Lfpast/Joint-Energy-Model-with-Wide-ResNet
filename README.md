@@ -24,7 +24,7 @@ root
   │  ├──── energy_sampling.py       # energy, sampling_step, SampleBuffer
   │  └──── __init__.py
   ├───── scripts/
-  │  ├──── download_data.py         # download/extract CIFAR-10 into pa2/data/
+  │  ├──── download_data.py         # download/extract CIFAR-10 into data/
   │  ├──── run_part1.py             # run Part 1 (training + show misclassified)
   │  ├──── run_part2.py             # run Part 2 (JEM training)
   │  └──── visualize.py             # demos and visualization routines
@@ -38,7 +38,7 @@ root
 
 Usage (example, run from the workspace root):
 1. Install dependencies: `pip install -r requirements.txt` (Install a GPU-enabled TensorFlow for the best performance.)
-2. Download data: `python -m scripts.download_data` (this will place the CIFAR-10 dataset into `pa2/data/`)
+2. Download data: `python -m scripts.download_data` (this will place the CIFAR-10 dataset into `data/`)
 3. Run Part 1 training: `python -m scripts.run_part1`
 4. Run Part 2 training: `python -m scripts.run_part2`
 5. Visualization: `python -m scripts.visualize`
